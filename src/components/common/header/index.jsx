@@ -4,10 +4,13 @@ import React from "react";
 import { Container,Nav,Navbar } from "react-bootstrap";
 import menuItems from "./menu.json";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 
 
 const Header = () => {
+/*   const pathName=usePathname();
+  console.log("pathName: "+pathName) */
   return (
     <Navbar expand="lg" className="bg-info" collapseOnSelect>
       <Container>
