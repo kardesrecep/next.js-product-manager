@@ -5,6 +5,7 @@ import { Container,Nav,Navbar } from "react-bootstrap";
 import menuItems from "./menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 
 
@@ -12,9 +13,9 @@ const Header = () => {
 /*   const pathName=usePathname();
   console.log("pathName: "+pathName) */
   return (
-    <Navbar expand="lg" className="bg-info" collapseOnSelect>
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark" collapseOnSelect>
       <Container>
-        <Navbar.Brand href="#home">Cozzy Shop</Navbar.Brand>
+        <Navbar.Brand href="/" as={Link}> <Image src="/images/logo.png" alt="logo cozzy shop" width={270} height={120} style={{objectFit:"cover"}} /> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

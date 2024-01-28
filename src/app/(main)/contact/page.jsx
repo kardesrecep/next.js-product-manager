@@ -1,10 +1,13 @@
 import React from 'react'
 import {wait} from '@/utils/misc'
+import PageHeader from '@/components/common/page-header'
 
 const ContactPage = async() => {
- await wait(2000)
+ //await wait(2000)
   return (
-    <div>ContactPage</div>
+    <div>
+        <PageHeader title="Contact" />
+      ContactPage</div>
   )
 }
 

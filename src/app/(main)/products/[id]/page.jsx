@@ -1,9 +1,12 @@
+import PageHeader from '@/components/common/page-header'
 import React from 'react'
 
 const ProductDetails = ({params}) => {
     console.log(params)
   return (
-    <div>ProductDetails</div>
+    <div>
+        <PageHeader title="AABC-TEST" />
+      ProductDetails</div>
   )
 }
 

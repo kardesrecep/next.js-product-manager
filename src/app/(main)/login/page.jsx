@@ -1,8 +1,11 @@
+import PageHeader from '@/components/common/page-header'
 import React from 'react'
 
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
+    <div>
+       <PageHeader title="Login" />
+      LoginPage</div>
   )
 }
 

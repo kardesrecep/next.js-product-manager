@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
-import "./header.scss";
+import   "./header.scss"
 import { usePathname } from "next/navigation";
 import menuItems from "./header.json";
 
@@ -10,7 +10,7 @@ const DashboardHeader = () => {
 	const pathName = usePathname();
 
 	return (
-		<Navbar expand={false} className="bg-danger mb-3" collapseOnSelect>
+		<Navbar expand={false}   className="bg-danger mb-3" collapseOnSelect>
 			<Container>
 				<Navbar.Brand href="#">Product Manager</Navbar.Brand>
 				<Navbar.Toggle aria-controls={`dashboardOffcanvas`} />
