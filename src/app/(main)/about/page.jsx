@@ -2,6 +2,13 @@ import PageHeader from '@/components/common/page-header'
 import Image from 'next/image'
 import React from 'react'
 
+
+export const metadata = {
+	title: "About",
+	description: "You can get luxyry furniture",
+};
+
+
 const AboutPage = () => {
   return (
     <div>
