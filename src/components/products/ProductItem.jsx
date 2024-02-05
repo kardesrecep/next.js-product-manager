@@ -22,7 +22,7 @@ const ProductItem = ({id,title,price,image}) => {
     <Card.Body>
       <Card.Title>{title}</Card.Title>
       <Card.Subtitle>
-      <Badge variant="success"> {price} </Badge>
+      <Badge className='bg-danger'> {price} </Badge>
       
       </Card.Subtitle>
     </Card.Body>
